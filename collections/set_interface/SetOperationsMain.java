@@ -5,30 +5,30 @@ import java.util.*;
 
 public class SetOperationsMain {
     public static void main(String[] args) {
-        // ✅ Check if Two Sets Are Equal
+        // Check if Two Sets Are Equal
         Set<Integer> set1 = new HashSet<>(Arrays.asList(1, 2, 3));
         Set<Integer> set2 = new HashSet<>(Arrays.asList(3, 2, 1));
         System.out.println("Sets are equal: " + SetOperations.areSetsEqual(set1, set2));
 
-        // ✅ Union & Intersection
+        //  Union & Intersection
         Set<Integer> setA = new HashSet<>(Arrays.asList(1, 2, 3));
         Set<Integer> setB = new HashSet<>(Arrays.asList(3, 4, 5));
         System.out.println("Union: " + SetOperations.getUnion(setA, setB));
         System.out.println("Intersection: " + SetOperations.getIntersection(setA, setB));
 
-        // ✅ Symmetric Difference
+        // Symmetric Difference
         System.out.println("Symmetric Difference: " + SetOperations.getSymmetricDifference(setA, setB));
 
-        // ✅ Convert a Set to Sorted List
+        // Convert a Set to Sorted List
         Set<Integer> unsortedSet = new HashSet<>(Arrays.asList(5, 3, 9, 1));
         System.out.println("Sorted List: " + SetOperations.convertSetToSortedList(unsortedSet));
 
-        // ✅ Check if Subset
+        // Check if Subset
         Set<Integer> subset = new HashSet<>(Arrays.asList(2, 3));
         Set<Integer> superset = new HashSet<>(Arrays.asList(1, 2, 3, 4));
         System.out.println("Is Subset: " + SetOperations.isSubset(subset, superset));
 
-        // ✅ Insurance Policy Management System
+        // Insurance Policy Management System
         InsuranceManagement insuranceManager = new InsuranceManagement();
 
         // Sample Policies
