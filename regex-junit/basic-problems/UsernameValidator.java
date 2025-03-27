@@ -1,4 +1,4 @@
-// 1️⃣ Validate a Username
+// 1. Validate a Username
 class UsernameValidator {
     public static void main(String[] args) {
         System.out.println(isValid("user_123")); // true
